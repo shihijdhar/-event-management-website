@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBIT Event Management</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #FFDEE9 0%, #B5FFFC 100%);
+            font-family: 'Rajdhani';
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background: linear-gradient(135deg, #8351f7 0%, #f144bd 100%);
+            padding: 1rem 2rem;
+        }
+        .navbar-brand img {
+            height: 100px;
+            margin-right: 10px;
+        }
+        .navbar-brand {
+            font-size: 1.8rem;
+            color: #fafaf8 !important;
+        }
+        .navbar-nav .nav-link {
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            font-size: 1.2rem;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #26022b;
+        }
+        .hero-section {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #FFDEE9 0%, #B5FFFC 100%);
+        }
+        .hero-section h1 {
+            font-size: 3.5rem;
+            color: #e41aa4;
+            margin-bottom: 20px;
+        }
+        .hero-section p {
+            font-size: 1.5rem;
+            color: #9f2173;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+        .feature {
+            background: #8ff3e4;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .feature:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .btn-primary {
+            background: #a50b49;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            border-radius: 30px;
+        }
+        .btn-primary:hover {
+            background: #e47b66;
+        }
+        footer {
+            background: #cb116e;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">
+            <img src="cbit logo.jpg" alt="CBIT Logo">
+            CBIT EVENT MANAGEMENT
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="hero-section">
+        <h1>Welcome to your one-stop destination for all campus events and announcements!</h1>
+       
+        <a href="events.html" class="btn btn-primary">Explore Events</a>
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <h3>Easy Registration</h3>
+            <p>Sign up for events seamlessly with our user-friendly interface.</p>
+        </div>
+        <div class="feature">
+            <h3>Event Updates</h3>
+            <p>Stay informed with real-time event notifications and schedules.</p>
+        </div>
+        <div class="feature">
+            <h3>Community Engagement</h3>
+            <p>Connect with peers and participate in discussions and forums.</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 CBIT Event Management | All Rights Reserved
+    </footer>
+</body>
+</html>
